@@ -124,9 +124,8 @@ body {
 }
 
 .about-image {
-  float: right;
-  margin-left: 20px;
-  width: 50%;
+  height: auto;
+  width: 100%;
 }
 
 .shows {
