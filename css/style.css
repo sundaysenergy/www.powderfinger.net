@@ -1,4 +1,4 @@
-/*! HTML5 Boilerplate v9.0.0-RC1 | MIT License | https://html5boilerplate.com/ */
+  /*! HTML5 Boilerplate v9.0.0-RC1 | MIT License | https://html5boilerplate.com/ */
 
 /* main.css 3.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
 /*
@@ -112,6 +112,7 @@ body {
 }
 
 .about {
+  display: flow-root;
   background-color: #ffffff;
   margin-right: auto;
   margin-left: auto;
@@ -124,8 +125,9 @@ body {
 }
 
 .about-image {
-  height: auto;
-  width: 100%;
+  float: right;
+  margin-left: 20px;
+  width: 50%;
 }
 
 .shows {
